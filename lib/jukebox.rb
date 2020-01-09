@@ -72,7 +72,7 @@ def run(songs)
         return
       elsif input_ == help
         help 
-      # end 
+      run(songs)
       elsif input_ == list 
         list(songs)
       # end 
