@@ -40,7 +40,7 @@ def play (song_array)
   if  (song_choice.to_i).between?(1, song_array.length)
     x = song_choice.to_i
     index_to_play = x -1
-    puts song_array[index_to_play]
+    puts "Playing #{song_array[index_to_play]}"
     
   elsif song_array.include? song_choice
     index_to_play = song_array.index(song_choice)
